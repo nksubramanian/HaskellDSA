@@ -1,0 +1,163 @@
+🧠 Phase 0 — Haskell Thinking (50 problems)
+
+Focus: recursion, immutability, pattern matching
+
+Key idea: Stop thinking in loops.
+
+Sample problems
+Implement length, sum, product recursively
+Reverse a list (no built-ins)
+Check palindrome
+Flatten nested lists
+Implement map, filter, foldl, foldr
+Generate Fibonacci (naive + optimized)
+Power function using recursion
+Merge two sorted lists
+Remove duplicates
+Run-length encoding
+
+👉 ~50 variations of these
+
+
+
+🌲 Phase 1 — Recursion + Trees (100 problems)
+
+Focus: structural recursion
+
+Sample problems
+
+Define a binary tree:
+
+data Tree a = Empty | Node a (Tree a) (Tree a)
+Tree traversals (inorder, preorder, postorder)
+Height of tree
+Count nodes / leaves
+Mirror a tree
+Check if balanced
+Lowest common ancestor
+Serialize/deserialize tree
+Path sum problems
+Convert sorted list → BST
+
+👉 ~100 variations (important foundation)
+
+
+
+📦 Phase 2 — Lists as Data Structures (100 problems)
+
+Focus: stacks, queues via lists
+
+Sample problems
+Implement stack using list
+Implement queue (2-list trick)
+Next greater element
+Sliding window maximum
+Valid parentheses
+Histogram max area
+Stock span problem
+
+👉 ~100 problems
+
+
+🧮 Phase 3 — Higher-Order + Folds (100 problems)
+
+Focus: abstraction
+
+Sample problems
+Implement everything using folds
+Re-implement map/filter via fold
+Prefix sums using scan
+Function composition pipelines
+Build mini DSL using functions
+Lazy infinite lists (primes, Fibonacci stream)
+
+👉 ~100 problems
+
+
+🌐 Phase 4 — Graphs (200 problems)
+
+Focus: THIS is where DSA meets Haskell strongly
+
+Graph representation
+type Graph a = Map a [a]
+Sample problems
+Traversals
+DFS (recursive)
+BFS (queue-based, functional)
+Detect cycle (directed/undirected)
+Shortest path
+Dijkstra
+Bellman-Ford
+Floyd-Warshall
+Connectivity
+Number of components
+Strongly connected components (Kosaraju)
+Advanced
+Topological sort
+Bipartite graph check
+Minimum spanning tree (Kruskal, Prim)
+
+👉 ~200 problems total
+
+
+🌳 Phase 5 — Tries & Advanced Structures (100 problems)
+Trie definition
+data Trie = Trie { end :: Bool, children :: Map Char Trie }
+Sample problems
+Insert/search/delete word
+Prefix matching
+Autocomplete
+Word search in grid
+Longest common prefix
+Replace words (dictionary problem)
+
+👉 ~100 problems
+
+⚡ Phase 6 — Dynamic Programming (150 problems)
+
+Focus: recursion → memoization → tabulation
+
+Sample problems
+Fibonacci (memoized)
+Knapsack
+Longest increasing subsequence
+Edit distance
+Matrix chain multiplication
+Coin change
+Subset sum
+DP on trees
+DP on graphs
+
+👉 ~150 problems
+
+🔄 Phase 7 — Backtracking (100 problems)
+Sample problems
+N-Queens
+Sudoku solver
+Permutations / combinations
+Subsets
+Word search
+Partition problems
+
+👉 ~100 problems
+
+⚙️ Phase 8 — Lazy Evaluation & Infinite Structures (50 problems)
+Sample problems
+Infinite prime sieve
+Infinite Fibonacci list
+Streams for BFS
+Lazy graph traversal
+On-demand computation pipelines
+
+👉 ~50 problems
+
+🧠 Phase 9 — Mixed Hard Problems (150 problems)
+Examples
+LRU cache (pure functional)
+Persistent segment tree
+Functional heap
+Union-Find (immutable version)
+Graph + DP combined problems
+Competitive programming problems adapted to Haskell
+
+👉 ~150 problems
